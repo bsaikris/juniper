@@ -1,0 +1,8 @@
+stages:
+  - deploy
+  
+deploy:
+  stage: deploy
+  image:
+  script:
+    - python HoeWarmIsHetInDelft.py
